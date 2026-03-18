@@ -64,6 +64,10 @@ The regenerated frame passes through a light UltimateSDUpscale pass (denoise 0.0
 
 ## Workflow Diagram
 
+<p align="center">
+  <img src="images/workflow.png" width="900"/>
+</p>
+
 ```
 Input Video
      │
