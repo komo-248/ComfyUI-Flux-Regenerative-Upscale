@@ -145,66 +145,57 @@ Bright = regenerate. Dark = preserve.
 ## Demonstration
  
 > **Copyright disclaimer:** The footage used in this demonstration is from *Hajime no Ippo* and is the property of George Morikawa, Kodansha, and their respective rights holders. It is used here solely for technical evaluation purposes — to demonstrate the restoration capabilities of this workflow on real-world compressed animation sources. No copyright infringement is intended. If you are a rights holder and would like this removed, please open an issue.
+
+https://github.com/user-attachments/assets/4598cdbb-5857-4031-9866-b931ff07540c
  
-https://github.com/komo-248/ComfyUI-Flux-Regenerative-Upscale/assets/videos/demo.mp4
- 
-**Note:** Frame interpolation and per-frame diffusion regeneration are inherently frame-by-frame processes — frames can be cut, duplicated, or synthesized for consistency and motion blur, which means the output will not align one-to-one with the source. This is an expected limitation of the upscaling process and is why the demonstration video does not match the original frame for frame.
+>**Note:** Frame interpolation and per-frame diffusion regeneration are inherently frame-by-frame processes — frames can be cut, duplicated, or synthesized for consistency and motion blur, which means the output will not align one-to-one with the source. This is an expected limitation of the upscaling process and is why the demonstration video does not match the original frame for frame.
+
+
 
 <p align="center">
   <img src="images/demo_comparison1.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison2.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison3.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison4.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison5.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison6.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison7.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison8.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison9.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison10.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison11.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-
 <p align="center">
   <img src="images/demo_comparison12.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
