@@ -79,11 +79,9 @@ The regenerated frame passes through a light UltimateSDUpscale pass (denoise 0.0
 
 ```
 Input Video
-     │
-     ├────────────────────────────────────────────┐
-     │                                            │
-     ▼                                            ▼
-[Signal Processing Chain]               [Original Frame Preview]
+     │                                            
+     ▼                                            
+[Signal Processing Chain]
   (see detail below)
      │
      ▼ Composite Mask
