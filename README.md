@@ -143,25 +143,72 @@ Bright = regenerate. Dark = preserve.
 ---
 
 ## Demonstration
-
-> **Copyright disclaimer:** The footage used in this demonstration is the property of its respective copyright holders and is used here solely for technical evaluation purposes — to demonstrate the restoration capabilities of this workflow on real-world compressed animation sources. No copyright infringement is intended. If you are a rights holder and would like this removed, please open an issue.
-
-https://github.com/user-attachments/assets/e3e01187-18c2-4e4f-8bd7-0d4f42a67a95
+ 
+> **Copyright disclaimer:** The footage used in this demonstration is from *Hajime no Ippo* and is the property of George Morikawa, Kodansha, and their respective rights holders. It is used here solely for technical evaluation purposes — to demonstrate the restoration capabilities of this workflow on real-world compressed animation sources. No copyright infringement is intended. If you are a rights holder and would like this removed, please open an issue.
+ 
+https://github.com/komo-248/ComfyUI-Flux-Regenerative-Upscale/assets/videos/demo.mp4
+ 
+**Note:** Frame interpolation and per-frame diffusion regeneration are inherently frame-by-frame processes — frames can be cut, duplicated, or synthesized for consistency and motion blur, which means the output will not align one-to-one with the source. This is an expected limitation of the upscaling process and is why the demonstration video does not match the original frame for frame.
 
 <p align="center">
-  <img src="images/demo_comparison.png" width="900"/>
+  <img src="images/demo_comparison1.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
 
-### A note on frame rate and older animation
+<p align="center">
+  <img src="images/demo_comparison2.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
 
-A side effect of this workflow — and of any frame interpolation pipeline applied to older animation — is the destruction of intentional variable frame rate.
+<p align="center">
+  <img src="images/demo_comparison3.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
 
-Traditional hand-drawn animation, particularly anime from the 80s and 90s, was not animated at a uniform frame rate. Animators worked "on twos" or "on threes," holding each drawing for 2–3 frames rather than producing a new drawing every frame. This was not a technical limitation — it was a deliberate craft decision. The held frames give older animation its characteristic weight, snap, and rhythmic timing. Action cuts hit harder. Slow scenes breathe differently. The variable cadence is part of the language of the medium.
+<p align="center">
+  <img src="images/demo_comparison4.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
 
-RIFE interpolation synthesizes new intermediate frames to produce smooth, uniform motion. Applied to animation made on twos, it homogenizes that timing into something that can look like the ["soap opera effect"](https://en.wikipedia.org/wiki/Soap_opera_effect) — motion that is technically fluid but feels wrong, losing the weight and rhythm the original animators put there intentionally.
+<p align="center">
+  <img src="images/demo_comparison5.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
 
-If preserving the original timing matters to you, **disable the RIFE VFI node** and remove it from the pipeline. The workflow produces clean restored output without it. Frame interpolation is an optional additive step — for archival or faithful restoration work, skipping it is the more correct choice.
+<p align="center">
+  <img src="images/demo_comparison6.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
+
+<p align="center">
+  <img src="images/demo_comparison7.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
+
+<p align="center">
+  <img src="images/demo_comparison8.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
+
+<p align="center">
+  <img src="images/demo_comparison9.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
+
+<p align="center">
+  <img src="images/demo_comparison10.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
+
+<p align="center">
+  <img src="images/demo_comparison11.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
+
+<p align="center">
+  <img src="images/demo_comparison12.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
 
 ---
 
