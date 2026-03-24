@@ -154,28 +154,28 @@ Bright = regenerate. Dark = preserve.
 <p align="center"><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em></p>
 
 <p align="center">
-  <img src="images/demo_comparison1.png" width="440"/>
-  <img src="images/demo_comparison2.png" width="440"/>
+  <img src="images/demo_comparison1.png" width="400"/>
+  <img src="images/demo_comparison2.png" width="400"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison3.png" width="440"/>
-  <img src="images/demo_comparison4.png" width="440"/>
+  <img src="images/demo_comparison3.png" width="400"/>
+  <img src="images/demo_comparison4.png" width="400"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison5.png" width="440"/>
-  <img src="images/demo_comparison6.png" width="440"/>
+  <img src="images/demo_comparison5.png" width="400"/>
+  <img src="images/demo_comparison6.png" width="400"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison7.png" width="440"/>
-  <img src="images/demo_comparison8.png" width="440"/>
+  <img src="images/demo_comparison7.png" width="400"/>
+  <img src="images/demo_comparison8.png" width="400"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison9.png" width="440"/>
-  <img src="images/demo_comparison10.png" width="440"/>
+  <img src="images/demo_comparison9.png" width="400"/>
+  <img src="images/demo_comparison10.png" width="400"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison11.png" width="440"/>
-  <img src="images/demo_comparison12.png" width="440"/>
+  <img src="images/demo_comparison11.png" width="400"/>
+  <img src="images/demo_comparison12.png" width="400"/>
 </p>
 
 
