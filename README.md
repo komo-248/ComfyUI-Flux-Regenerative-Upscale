@@ -152,54 +152,34 @@ https://github.com/user-attachments/assets/4598cdbb-5857-4031-9866-b931ff07540c
 
 
 
-<p align="left">
-  <img src="images/demo_comparison1.png" width="300"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
-</p>
-<p align="right">
-  <img src="images/demo_comparison2.png" width="300"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+<p align="center"><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em></p>
+
+<p align="center">
+  <img src="images/demo_comparison1.png" width="440"/>
+  <img src="images/demo_comparison2.png" width="440"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison3.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+  <img src="images/demo_comparison3.png" width="440"/>
+  <img src="images/demo_comparison4.png" width="440"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison4.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+  <img src="images/demo_comparison5.png" width="440"/>
+  <img src="images/demo_comparison6.png" width="440"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison5.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+  <img src="images/demo_comparison7.png" width="440"/>
+  <img src="images/demo_comparison8.png" width="440"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison6.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+  <img src="images/demo_comparison9.png" width="440"/>
+  <img src="images/demo_comparison10.png" width="440"/>
 </p>
 <p align="center">
-  <img src="images/demo_comparison7.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+  <img src="images/demo_comparison11.png" width="440"/>
+  <img src="images/demo_comparison12.png" width="440"/>
 </p>
-<p align="center">
-  <img src="images/demo_comparison8.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
-</p>
-<p align="center">
-  <img src="images/demo_comparison9.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
-</p>
-<p align="center">
-  <img src="images/demo_comparison10.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
-</p>
-<p align="center">
-  <img src="images/demo_comparison11.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
-</p>
-<p align="center">
-  <img src="images/demo_comparison12.png" width="900"/>
-  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
-</p>
+
+
 
 ---
 
