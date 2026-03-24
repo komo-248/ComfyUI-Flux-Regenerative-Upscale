@@ -14,6 +14,7 @@ https://github.com/komo-248/ComfyUI-Flux-Regenerative-Upscale/assets/videos/comp
 - [How It Works](#how-it-works)
 - [Workflow Diagram](#workflow-diagram)
 - [Signal Processing Chain](#signal-processing-chain)
+- [Demonstration](#demonstration)
 - [Models Used](#models-used)
 - [Custom Nodes](#custom-nodes)
 - [Workflow Parameters](#workflow-parameters)
@@ -138,6 +139,29 @@ Composite Mask → InpaintModelConditioning
 ```
 
 Bright = regenerate. Dark = preserve.
+
+---
+
+## Demonstration
+
+> **Copyright disclaimer:** The footage used in this demonstration is the property of its respective copyright holders and is used here solely for technical evaluation purposes — to demonstrate the restoration capabilities of this workflow on real-world compressed animation sources. No copyright infringement is intended. If you are a rights holder and would like this removed, please open an issue.
+
+https://github.com/user-attachments/assets/e3e01187-18c2-4e4f-8bd7-0d4f42a67a95
+
+<p align="center">
+  <img src="images/demo_comparison.png" width="900"/>
+  <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
+</p>
+
+### A note on frame rate and older animation
+
+A side effect of this workflow — and of any frame interpolation pipeline applied to older animation — is the destruction of intentional variable frame rate.
+
+Traditional hand-drawn animation, particularly anime from the 80s and 90s, was not animated at a uniform frame rate. Animators worked "on twos" or "on threes," holding each drawing for 2–3 frames rather than producing a new drawing every frame. This was not a technical limitation — it was a deliberate craft decision. The held frames give older animation its characteristic weight, snap, and rhythmic timing. Action cuts hit harder. Slow scenes breathe differently. The variable cadence is part of the language of the medium.
+
+RIFE interpolation synthesizes new intermediate frames to produce smooth, uniform motion. Applied to animation made on twos, it homogenizes that timing into something that can look like the ["soap opera effect"](https://en.wikipedia.org/wiki/Soap_opera_effect) — motion that is technically fluid but feels wrong, losing the weight and rhythm the original animators put there intentionally.
+
+If preserving the original timing matters to you, **disable the RIFE VFI node** and remove it from the pipeline. The workflow produces clean restored output without it. Frame interpolation is an optional additive step — for archival or faithful restoration work, skipping it is the more correct choice.
 
 ---
 
