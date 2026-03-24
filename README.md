@@ -4,7 +4,15 @@ A ComfyUI workflow for restoring low-resolution, compressed, or noisy animation 
 
 > **Intended media:** Animation and stylized/illustrated content. Behavior on live-action, photographic, or other media has not been tested and results may vary significantly.
 
-https://github.com/komo-248/ComfyUI-Flux-Regenerative-Upscale/assets/videos/comparison.mp4
+
+
+https://github.com/user-attachments/assets/784dd320-d815-46c1-8a83-771500a113ac
+
+> **Copyright disclaimer:** The footage used in this demonstration is from *Hajime no Ippo* and is the property of George Morikawa, Kodansha, and their respective rights holders. It is used here solely for technical evaluation purposes — to demonstrate the restoration capabilities of this workflow on real-world compressed animation sources. No copyright infringement is intended. If you are a rights holder and would like this removed, please open an issue.
+ 
+>**Note:** Frame interpolation and per-frame diffusion regeneration are inherently frame-by-frame processes — frames can be cut, duplicated, or synthesized for consistency and motion blur, which means the output will not align one-to-one with the source. This is an expected limitation of the upscaling process and is why the demonstration video does not match the original frame for frame.
+
+
 
 ---
 
@@ -143,15 +151,6 @@ Bright = regenerate. Dark = preserve.
 ---
 
 ## Demonstration
- 
-> **Copyright disclaimer:** The footage used in this demonstration is from *Hajime no Ippo* and is the property of George Morikawa, Kodansha, and their respective rights holders. It is used here solely for technical evaluation purposes — to demonstrate the restoration capabilities of this workflow on real-world compressed animation sources. No copyright infringement is intended. If you are a rights holder and would like this removed, please open an issue.
-
-https://github.com/user-attachments/assets/4598cdbb-5857-4031-9866-b931ff07540c
- 
->**Note:** Frame interpolation and per-frame diffusion regeneration are inherently frame-by-frame processes — frames can be cut, duplicated, or synthesized for consistency and motion blur, which means the output will not align one-to-one with the source. This is an expected limitation of the upscaling process and is why the demonstration video does not match the original frame for frame.
-
-
-
 <p align="center"><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em></p>
 
 <p align="center">
