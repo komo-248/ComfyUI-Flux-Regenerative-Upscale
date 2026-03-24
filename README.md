@@ -152,11 +152,11 @@ https://github.com/user-attachments/assets/4598cdbb-5857-4031-9866-b931ff07540c
 
 
 
-<p align="center">
+<p align="left">
   <img src="images/demo_comparison1.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
-<p align="center">
+<p align="right">
   <img src="images/demo_comparison2.png" width="900"/>
   <br><em>Left: source frame &nbsp;|&nbsp; Right: restored output</em>
 </p>
