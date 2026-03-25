@@ -1,4 +1,4 @@
-# ComfyUI – Flux Regenerative Upscale
+# Regenerative Denoise and Upscale Process with ComfyUI and Flux
 
 A ComfyUI workflow for restoring low-resolution, compressed, or noisy animation and stylized art using diffusion-based regeneration. The goal is not simply to enlarge the image — it is to recover and reconstruct degraded detail while preserving the original stylization: linework, cel shading, color palette, and artistic character.
 
